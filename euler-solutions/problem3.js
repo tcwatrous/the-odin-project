@@ -1,12 +1,13 @@
-/*If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+/*The prime factors of 13195 are 5, 7, 13 and 29.
 
-Find the sum of all the multiples of 3 or 5 below 1000.*/
+What is the largest prime factor of the number 600851475143 ?*/
 
-var sum = 0;
-for(var i=1;i<1000;i++) {
-	if(i%5===0 || i%3===0) {
-		sum+=i;
-	}
+function primeFactors() {
+	
 }
-console.log("The sum of all the multiples of 3 or 5 below 1000 is:")
-console.log(sum);
+
+function checkPrime() {
+
+}
+console.log("The largest prime factor of 10 is:")
+console.log(factor);

@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('#trigger').click(function(){ 
 		$('#container').remove(); //prevent multiple grids
 		
-
+https://gist.github.com/necenzurat/5995158/stars
 		var containerSide = 800;
 		var quantity = $('#num').val();
 		var hw = containerSide/quantity;
